@@ -1,0 +1,12 @@
+.favourites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.favourites div {
+  border: 3px white solid;
+  border-radius: 10px;
+  padding: 10px;
+}
