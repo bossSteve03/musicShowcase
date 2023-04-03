@@ -10,9 +10,9 @@ function App() {
 
   return (
     <>
-      {ArtistProfiles()}
+      <ArtistProfiles></ArtistProfiles>
       <div className="break"></div>
-      {FavouriteSongs()}
+      <FavouriteSongs></FavouriteSongs>
     </> 
   )
 }
