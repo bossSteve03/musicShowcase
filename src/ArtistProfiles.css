@@ -7,7 +7,7 @@ main div.artistProfile{
 }
 
 main button > img {
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 .playlist {

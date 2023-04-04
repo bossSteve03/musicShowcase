@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import ArtistProfiles from './ArtistProfiles'
+import TWProfiles from './TWProfiles'
+import TRProfiles from './TRProfiles'
+import BBProfiles from './BBProfiles'
 import FavouriteSongs from './FavouriteSongs'
 import './App.css'
 
@@ -10,9 +12,11 @@ function App() {
 
   return (
     <>
-      <ArtistProfiles></ArtistProfiles>
+      <TWProfiles />
+      <BBProfiles />
+      <TRProfiles />
       <div className="break"></div>
-      <FavouriteSongs></FavouriteSongs>
+      <FavouriteSongs />
     </> 
   )
 }
