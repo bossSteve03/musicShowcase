@@ -4,6 +4,7 @@ main div.artistProfile{
   box-shadow:
     inset 21px 21px 41px #353535,
     inset -21px -21px 41px #5f5f5f;
+  padding: 20px auto;
 }
 
 main button > img {
